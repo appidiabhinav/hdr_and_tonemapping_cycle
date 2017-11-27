@@ -1,6 +1,4 @@
 % Takes relevant samples from the images for use in gsolve.m
-%
-%
 function [ zRed, zGreen, zBlue, sampleIndices ] = makeImageMatrix( filenames, numPixels )
     
     % determine the number of differently exposed images
