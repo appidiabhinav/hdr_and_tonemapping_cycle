@@ -1,10 +1,6 @@
 % -------------------------------------------------------------------------
 % Implements a complete hdr and tonemapping cycle
 %
-% Author:
-% Mathias Eitz
-% m.eitz@tu-berlin.de
-%
 % 1.: Computes the camera response curve according to "Recovering High
 % Dynamic Range Radiance Maps from Photographs" by P. Debevec.
 % You need a wide range of differently exposed pictures from the same scene
@@ -20,8 +16,6 @@
 % Some code taken from Paul Debevec's implementation of his SIGGRAPH'97
 % paper "Recovering High Dynamic Range Radiance Maps from Photographs"
 %
-% Original implementation: January 2007
-% Compatibility updates for new Matlab versions (7.8.0): April 2010
 % -------------------------------------------------------------------------
 
 
